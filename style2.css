@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+b {
+  font-weight: 700;
+}
+
+#landing-page {
+  background-attachment: fixed;
+  position: relative;
+  height: 100vh;
+  background-image: url(./images/bg.jpg);
+  background-size: cover;
+}
+
+.welcome {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  top: 45%;
+  transform: scale(0.8);
+}
+
+ul.nav {
+  position: sticky;
+  top: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: black;
+}
+
+.nav > li {
+  display: inline-block;
+  margin: auto;
+  color: white;
+  font-family: Poppins;
+  font-weight: 300;
+}
+
+.nav > li > a {
+  padding: 1em 1.5em;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.nav > li > a:hover {
+  background-color: darkblue;
+}
+
+hr {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.section-intro,
+.section-edu,
+.section-work {
+  text-align: center;
+}
+
+.section-edu,
+.section-work {
+  display: inline-block;
+  margin-top: 5em;
+}
+
+.img-icon {
+  max-width: 10em;
+}
+
+#about {
+  padding: 2em 0;
+}
+
+.perkenalan {
+  font-size: 1.2em;
+  width: 80%;
+  max-width: 25em;
+  margin: 1em auto;
+  text-align: center;
+}
+
+.desktop {
+  display: none !important;
+}
+
+.title-porto,
+.title-kontak {
+  text-decoration: underline;
+  text-align: center;
+}
+
+#porto {
+  width: 100%;
+  padding: 2em 0;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.img-porto {
+  max-width: 275px;
+  display: inline-block;
+  width: 90%;
+  vertical-align: middle;
+  margin: 1em auto;
+}
+
+.form-kontak,
+.kontak-info {
+  width: 100%;
+  text-align: center;
+}
+
+.inputan {
+  width: 85%;
+  text-align: left;
+  display: block;
+  margin: 0 auto;
+}
+
+.inputan > label {
+  display: block;
+  font-size: 1.2em;
+}
+
+.inputan > input,
+.inputan > textarea {
+  width: 100%;
+  margin: 0.5em 0;
+  font-size: 1em;
+}
+
+.btn-kirim {
+  width: 85%;
+  margin: 1em 0;
+  border: none;
+  background-color: darkblue;
+  color: white;
+  font-size: 1em;
+  padding: 0.5em 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2em;
+  padding: 1.5em 0;
+  color: white;
+  background-color: black;
+  font-size: 0.8em;
+}
+
+.ikon-kontak {
+  width: 50px;
+  margin: 2em;
+}
+
+.contact-desktop {
+  display: none;
+}
+
+.ikon-kontak-bundler {
+  display: block;
+}
+
+.kontak-info > div {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 600px) {
+  .non-desktop {
+    display: none;
+  }
+
+  .desktop {
+    display: block !important;
+  }
+
+  ul.nav {
+    text-align: right;
+  }
+
+  li.nav-icon > img {
+    padding: 0;
+    width: 45px;
+    margin: 0.2em 1em;
+    float: left;
+  }
+
+  .section-work,
+  .section-edu {
+    width: 49.5%;
+    vertical-align: top;
+  }
+
+  .perkenalan {
+    text-align: justify;
+  }
+
+  hr {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .form-kontak,
+  .kontak-info {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  #kontak {
+    vertical-align: top;
+  }
+
+  .contact-desktop {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.3em;
+  }
+
+  .ikon-kontak-bundler {
+    display: inline-block;
+    min-width: 300px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .ikon-kontak {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .contact-info > div {
+    display: block;
+  }
+}

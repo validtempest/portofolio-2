@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width='device-width', initial-scale=1.0" />
+    <title>My Landing Page</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div id="landing-page">
+      <h1 class="welcome">Hello! Welcome to My Website</h1>
+    </div>
+    <ul class="nav">
+      <li class="nav-icon desktop">
+        <img src="./images/icon.png" alt="icon.png" />
+      </li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#porto">My Portofolio</a></li>
+      <li><a href="#kontak">Contact</a></li>
+    </ul>
+    <div id="about">
+      <div class="section-intro">
+        <img src="./images/profile.png" alt="profil.png" class="img-icon" />
+        <p class="perkenalan">
+          Perkenalkan saya Rivaldi Adnan Gibran, seorang web developer yang
+          berfokus dalam membuat tampilan website yang modern dan responsif.
+        </p>
+      </div>
+      <div class="section-edu">
+        <img src="./images/class.png" alt="class.png" class="img-icon" />
+        <p class="perkenalan">
+          Saya telah mengikuti beberapa kelas khusus untuk membuat tampilan web
+          responsive dan telah mempunyai beberapa sertifikat.
+        </p>
+      </div>
+      <div class="section-work">
+        <img src="./images/html.png" alt="html.png" class="img-icon" />\
+        <p class="perkenalan">
+          Saya telah mengusasi cara membuat tampilan website dengan menggunakna
+          <b>HTML, CSS dan JavaScript</b> saya juga dapat menggunakan Framework
+          modern seperti <b>Bootstrap.</b>
+        </p>
+      </div>
+    </div>
+    <div id="porto">
+      <h1 class="title-porto">Portofolio Saya</h1>
+      <div class="container">
+        <img
+          src="./images/porto1.jpg"
+          alt="image-portofolio"
+          class="img-porto"
+        />
+        <img
+          src="./images/porto2.jpg"
+          alt="image-portofolio"
+          class="img-porto"
+        />
+        <img
+          src="./images/porto3.jpg"
+          alt="image-portofolio"
+          class="img-porto"
+        />
+        <img
+          src="./images/porto4.jpg"
+          alt="image-portofolio"
+          class="img-porto"
+        />
+      </div>
+    </div>
+    <hr />
+    <div id="kontak">
+      <h1 class="title-kontak">Hubungi Saya</h1>
+      <form action="" class="form-kontak">
+        <div class="inputan">
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" />
+        </div>
+        <div class="inputan">
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+        </div>
+        <div class="inputan">
+          <label for="pesan">Pesan</label>
+          <textarea name="" id="pesan" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn-kirim">Kirim</button>
+      </form>
+      <div class="kontak-info">
+        <h3 class="non-desktop">
+          Ketuk Salah Satu untuk mendapatkan Informasi
+        </h3>
+        <div>
+          <a href="tel:123-456-7890" class="ikon-kontak-bundler">
+            <img
+              src="./images/telpon.png"
+              alt="kontak.png"
+              class="ikon-kontak"
+            />
+            <span class="contact-desktop">123-456-7890</span>
+          </a>
+        </div>
+        <div>
+          <a href="mailto:valdiadgib03@gmail.com" class="ikon-kontak-bundler">
+            <img src="./images/gmail.png" alt="gmail.png" class="ikon-kontak" />
+            <span class="contact-desktop">valdiadgib03@gmail.com</span>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/rivaldi-adnan-gibran-a58356256/"
+            class="ikon-kontak-bundler"
+            target="_blank"
+          >
+            <img
+              src="./images/linkedin.png"
+              alt="linkedin.png"
+              class="ikon-kontak"
+            />
+            <span class="contact-desktop">Rivaldi Adnan Gibran</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <footer>© Dibuat oleh Rivaldi Adnan Gibran. All Rights Reserved.</footer>
+  </body>
+</html>
